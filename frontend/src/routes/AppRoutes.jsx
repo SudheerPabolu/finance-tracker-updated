@@ -4,7 +4,7 @@ import Login from "../pages/Login/Login";
 
 import Signup from "../pages/Register/Register";
 
-import Dashboard from "../pages/dashboard/Dashboard";
+import Dashboard from "../pages/Dashboard/Dashboard";
 
 import Transactions from "../pages/transactions/Transactions";
 
