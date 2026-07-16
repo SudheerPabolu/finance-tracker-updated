@@ -81,7 +81,7 @@ const Navbar = () => {
         >
           {user?.profileImage ? (
             <img
-              src={`http://localhost:5000${user.profileImage}`}
+              src={`${import.meta.env.VITE_API_URL.replace("/api/v1", "")}${user.profileImage}`}
               alt="Profile"
               className="
               w-12
@@ -139,7 +139,7 @@ const Navbar = () => {
             >
               {user?.profileImage ? (
                 <img
-                  src={`http://localhost:5000${user.profileImage}`}
+                  src={`${import.meta.env.VITE_API_URL.replace("/api/v1", "")}${user.profileImage}`}
                   alt="Profile"
                   className="
                   w-16
